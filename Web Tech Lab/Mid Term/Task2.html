@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <h1 style="text-align: center">Bank Registration Form</h1>
+            <div class="container">
+                <fieldset>
+                    <legend style="color: brown">Sign Up:</legend>
+                    <table>
+                        <tr>
+                            <td colspan="2" align="center"><h3>Bank Account Registration</h3></td>
+                        </tr>
+                        <tr>
+                            <td><label for="name">Account Holder Name:</label></td>
+                            <td><input type="text" id="name" name="name" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Account Holder Email:</label></td>
+                            <td><input type="email" id="email" name="email" placeholder="@gmail.com" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Account Holder Phone Number:</label></td>
+                            <td><input type="tel" id="phone" name="phone" placeholder="+880" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Account Holder Address:</label></td>
+                            <td><input type="text" id="address" name="address" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Account Holder Gender:</label></td>
+                            <td>
+                                <input type="radio" id="gender" name="gender" value="male" /> Male
+                                <input type="radio" id="gender" name="gender" value="female" /> Female
+                                <input type="radio" id="gender" name="gender" value="other" /> Other
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+            <div class="container">
+                <fieldset>
+                    <legend style="color: brown">Personal Information</legend>
+                    <table>
+                        <tr>
+                            <td><label for="username">Username:</label></td>
+                            <td><input type="text" id="username" name="username" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td><input type="password" id="password" name="password" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="confirm_password">Confirm Password:</label></td>
+                            <td><input type="password" id="confirm_password" name="confirm_password" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Submit" />
+                                <input type="reset" value="Reset" />
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+        </form>
+    </body>
+</html>
