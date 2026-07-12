@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Login Form</title>
+
+        <link rel="stylesheet" href="../Design/design.css" />
+        <script src="../JavaScript/Script.js" defer></script>
+    </head>
+
+    <body>
+        <form id="loginForm">
+            <h1>Login Form</h1>
+
+            <fieldset>
+                <legend>Login Information</legend>
+
+                <div class="container">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="username">Username :</label>
+                            </td>
+
+                            <td>
+                                <input type="text" id="username" name="username" placeholder="Enter your username"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="password">Password :</label>
+                            </td>
+
+                            <td>
+                                <input type="password" id="password" name="password" placeholder="Enter your password"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="button">
+                                <input type="submit" value="Login" />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <p id="message"></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
