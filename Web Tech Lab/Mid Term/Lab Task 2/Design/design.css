@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+}
+
+form {
+    width: 350px;
+    margin: 100px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+}
+
+input {
+    padding: 6px;
+}
+
+.button {
+    text-align: center;
+}
+
+#message {
+    text-align: center;
+}
